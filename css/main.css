@@ -241,6 +241,7 @@ footer{
 	display:inline-block;
 	width: 30%;
 	padding: 1%;
+	text-align: center;
 }
 .cities>a>img{
 	width: 100%;
