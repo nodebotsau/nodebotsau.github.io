@@ -88,20 +88,20 @@ a { text-decoration: none; color:rgb(180,30,30);}
 
 #footer a, #footer a:visited, #footer a:link, #organizers a, #organizers a:visited, #organizers a:link  { color:#efefef;}
 
-h1 { font-family: 'Monda', sans-serif;  font-size: 66px; font-weight:400; margin-bottom: 30px; margin-top: 80px;}
+h1 { font-family: 'Monda', sans-serif;  font-size: 66px; font-weight:400; margin-bottom: 0.5em; margin-top: 1.5em;}
 /* font-size: 72px; */
 
 h1 a { text-decoration: none; color: #111;}
 
-h2 { font-family: 'Monda', sans-serif; font-size: 30px; margin: 40px 0 40px; }
+h2 { font-family: 'Monda', sans-serif; font-size: 30px; margin: 0.8em 0 1.2em; }
 
 header h2 { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 18px; font-weight: 200; color: #333; margin: 0.5em 0; }
 
 h3 { font-family: 'Monda', sans-serif; font-size: 26px; margin-bottom: 6px; margin-top: 0px; padding-top:0px;}
 
-p, ul {margin:0 0 40px;}
+p, ul {margin:0 0 1.5em;}
 
-p {  line-height: 1.6em}
+p {  line-height: 1.6em;}
 
 p img { max-width: 100%; margin: 0 auto; display: block;}
 
@@ -252,7 +252,6 @@ footer{
 .cities p.details{
     text-align: left;
     padding-top: 0px;
-    margin-top: -30px;
 }
 
 .cities p.buy a {
