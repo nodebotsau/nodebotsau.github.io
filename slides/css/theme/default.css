@@ -16,12 +16,12 @@
  *********************************************/
 body {
   background: #1c1e20;
-  background: -moz-radial-gradient(center, circle cover, #555a5f 0%, #1c1e20 100%);
-  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #555a5f), color-stop(100%, #1c1e20));
-  background: -webkit-radial-gradient(center, circle cover, #555a5f 0%, #1c1e20 100%);
-  background: -o-radial-gradient(center, circle cover, #555a5f 0%, #1c1e20 100%);
-  background: -ms-radial-gradient(center, circle cover, #555a5f 0%, #1c1e20 100%);
-  background: radial-gradient(center, circle cover, #555a5f 0%, #1c1e20 100%);
+  background: -moz-radial-gradient(center, circle cover, #d6ba32 0%, #1c1e20 100%);
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #d6ba32), color-stop(100%, #1c1e20));
+  background: -webkit-radial-gradient(center, circle cover, #d6ba32 0%, #1c1e20 100%);
+  background: -o-radial-gradient(center, circle cover, #d6ba32 0%, #1c1e20 100%);
+  background: -ms-radial-gradient(center, circle cover, #d6ba32 0%, #1c1e20 100%);
+  background: radial-gradient(center, circle cover, #d6ba32 0%, #1c1e20 100%);
   background-color: #2b2b2b; }
 
 .reveal {
@@ -89,12 +89,37 @@ body {
   -moz-transition: all .2s linear;
   -ms-transition: all .2s linear;
   -o-transition: all .2s linear;
-  transition: all .2s linear; }
+  transition: all .2s linear; 
+ }
 
 .reveal a:hover img {
   background: rgba(255, 255, 255, 0.2);
   border-color: #13daec;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
+
+body > div > div.slides > section.present > img {
+    border: 0px;
+    box-shadow: 0 0 0px;
+    background: none;
+}
+
+/***************
+* TEAMS
+***************/
+
+body > div > div.slides > section.team.present > ul {
+    list-style-type: none;
+    text-align: center;
+}
+body > div > div.slides > section.team.present > ul > li > img {
+    width: 100px;
+    border: 0px;
+    box-shadow: 0 0 0px;
+    background: none;
+}
+body > div > div.slides > section.team.present > ul > li > p {
+    width: 100px;
+}
 
 /*********************************************
  * NAVIGATION CONTROLS
