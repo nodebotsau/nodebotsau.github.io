@@ -128,6 +128,27 @@ body > div > div.slides > section.team.present > ul > li > div {
     /*width: 100px;*/
 }
 
+/***************
+* SPONSORS
+***************/
+body > div > div.slides > section.sponsors.present > div {
+    
+}
+body > div > div.slides > section.sponsors.present > div > div {
+    display: inline-block;
+    min-height: 300px;
+    width: 40%;
+    vertical-align: middle;
+}
+body > div > div.slides > section.sponsors.present > div > div > img {
+    width: 100%;
+    border: 0px;
+    border-radius: 1em;
+}
+body > div > div.slides > section.sponsors.present > div:nth-child(2) > div:nth-child(1) > img {
+    width: 80%;
+}
+
 /*********************************************
  * NAVIGATION CONTROLS
  *********************************************/
