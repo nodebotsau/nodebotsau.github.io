@@ -15,25 +15,25 @@ body > div > div.slides > section.present > img {
 * TEAMS
 ***************/
 
-body > div > div.slides > section.team.present {
+body > div > div.slides > section > section.team.present {
   margin-top: -200px;
 }
-body > div > div.slides > section.team.present > ul {
+body > div > div.slides > section > section.team.present > ul {
   list-style-type: none;
   text-align: center;
   display: block;
 }
-body > div > div.slides > section.team.present > ul > li {
+body > div > div.slides > section > section.team.present > ul > li {
   display: inline-block;
-  padding: 10px 40px 10px 40px;
+  padding: 5px 40px 5px 40px;
 }
-body > div > div.slides > section.team.present > ul > li > img {
-  width: 200px;
+body > div > div.slides > section > section.team.present > ul > li > img {
+  width: 180px;
   border: 0px;
   box-shadow: 0 0 0px;
   background: none;
 }
-body > div > div.slides > section.team.present > ul > li > div {
+body > div > div.slides > section > section.team.present > ul > li > div {
   /*width: 100px;*/
 }
 /***************
