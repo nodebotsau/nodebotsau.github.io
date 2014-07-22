@@ -1,0 +1,77 @@
+body {
+  background: -moz-radial-gradient(center, circle cover, #d6ba32 0%, #ffd93d 100%);
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #d6ba32), color-stop(100%, #ffd93d));
+  background: -webkit-radial-gradient(center, circle cover, #d6ba32 0%, #ffd93d 100%);
+  background: -o-radial-gradient(center, circle cover, #d6ba32 0%, #ffd93d 100%);
+  background: -ms-radial-gradient(center, circle cover, #d6ba32 0%, #ffd93d 100%);
+  background: radial-gradient(center, circle cover, #d6ba32 0%, #ffd93d 100%);
+}
+body > div > div.slides > section.present > img {
+  border: 0px;
+  box-shadow: 0 0 0px;
+  background: none;
+}
+/***************
+* TEAMS
+***************/
+
+body > div > div.slides > section.team.present {
+  margin-top: -200px;
+}
+body > div > div.slides > section.team.present > ul {
+  list-style-type: none;
+  text-align: center;
+  display: block;
+}
+body > div > div.slides > section.team.present > ul > li {
+  display: inline-block;
+  padding: 10px 40px 10px 40px;
+}
+body > div > div.slides > section.team.present > ul > li > img {
+  width: 200px;
+  border: 0px;
+  box-shadow: 0 0 0px;
+  background: none;
+}
+body > div > div.slides > section.team.present > ul > li > div {
+  /*width: 100px;*/
+}
+/***************
+* SPONSORS
+***************/
+
+body > div > div.slides > section.sponsors.present > div {} body > div > div.slides > section.sponsors.present > div > div {
+  display: inline-block;
+  min-height: 300px;
+  width: 40%;
+  vertical-align: middle;
+}
+body > div > div.slides > section.sponsors.present > div > div > img {
+  width: 100%;
+  border: 0px;
+  border-radius: 1em;
+}
+body > div > div.slides > section.sponsors.present > div:nth-child(2) > div:nth-child(1) > img {
+  width: 80%;
+}
+body > div > div.slides > section.team.present > ul > li > div {
+  /*width: 100px;*/
+}
+/***************
+* SPONSORS
+***************/
+
+body > div > div.slides > section.sponsors.present > div {} body > div > div.slides > section.sponsors.present > div > div {
+  display: inline-block;
+  min-height: 300px;
+  width: 40%;
+  vertical-align: middle;
+}
+body > div > div.slides > section.sponsors.present > div > div > img {
+  width: 100%;
+  border: 0px;
+  border-radius: 1em;
+}
+body > div > div.slides > section.sponsors.present > div:nth-child(2) > div:nth-child(1) > img {
+  width: 80%;
+}
