@@ -106,19 +106,26 @@ body > div > div.slides > section.present > img {
 /***************
 * TEAMS
 ***************/
-
+body > div > div.slides > section.team.present {
+    margin-top: -200px;
+}
 body > div > div.slides > section.team.present > ul {
     list-style-type: none;
     text-align: center;
+    display: block;
+}
+body > div > div.slides > section.team.present > ul > li {
+    display: inline-block;
+    padding: 10px 40px 10px 40px;
 }
 body > div > div.slides > section.team.present > ul > li > img {
-    width: 100px;
+    width: 200px;
     border: 0px;
     box-shadow: 0 0 0px;
     background: none;
 }
-body > div > div.slides > section.team.present > ul > li > p {
-    width: 100px;
+body > div > div.slides > section.team.present > ul > li > div {
+    /*width: 100px;*/
 }
 
 /*********************************************
