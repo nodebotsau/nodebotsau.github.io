@@ -11,30 +11,32 @@ body > div > div.slides > section.present > img {
   box-shadow: 0 0 0px;
   background: none;
 }
+
+body > div > div.slides > section.fullimage h2 {
+    padding: 1em;
+    background: rgba(255, 217, 61, 0.8);
+}
+
 /***************
 * TEAMS
 ***************/
 
-body > div > div.slides > section > section.team.present {
-  margin-top: -200px;
-}
-body > div > div.slides > section > section.team.present > ul {
+body > div > div.slides >  section.team.present > ul {
   list-style-type: none;
   text-align: center;
   display: block;
 }
-body > div > div.slides > section > section.team.present > ul > li {
+body > div > div.slides > section.team.present > ul > li {
   display: inline-block;
-  padding: 5px 40px 5px 40px;
+  padding: 0px 10px 0px 10px;
+  font-size: 0.8em;
 }
-body > div > div.slides > section > section.team.present > ul > li > img {
-  width: 180px;
-  border: 0px;
+body > div > div.slides  > section.team.present > ul > li > img {
+  width: 190px;
+/**  border: 0px;**/
   box-shadow: 0 0 0px;
   background: none;
-}
-body > div > div.slides > section > section.team.present > ul > li > div {
-  /*width: 100px;*/
+  display: block;
 }
 /***************
 * SPONSORS
