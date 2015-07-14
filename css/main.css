@@ -353,3 +353,8 @@ footer {
 				opacity: 1;
 		}
 }
+
+.sponsors img {
+		border: none;
+		width: 100%;
+}
