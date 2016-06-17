@@ -358,3 +358,10 @@ footer {
 		border: none;
 		width: 100%;
 }
+
+/** Melb specific things here **/
+
+#melbourne #header {
+	background: #222 url("/img/melb_head.jpg") center center no-repeat;
+    background-size: cover;
+}
