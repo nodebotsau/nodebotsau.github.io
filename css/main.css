@@ -12,18 +12,18 @@ a {
 		margin: 0 0 200px;
 		text-align: center;
 		height: 250px;
-		background: #222 url("/img/nodebots-day-pan.jpg") center top no-repeat;
+		background: #222 url("../img/nodebots-day-pan.jpg") center top no-repeat;
 		background-size: 100% auto;
 		background-size: cover;
 }
 #header .notice {
-		display: none;
+		display: inline-block;
 		width: 200px;
 		height: 200px;
 		position: relative;
 		top: -268px;
 		left: 31%;
-		background: url("/img/burst.png") center center no-repeat;
+		background: url("../img/burst.png") center center no-repeat;
 		opacity: 0;
 		-webkit-transform: rotate(180deg);
 		-o-transform: rotate(180deg);
@@ -31,16 +31,28 @@ a {
 		-webkit-animation: spinfade 1s 1s forwards;
 		animation: spinfade 1s 1s forwards;
 }
-@media all and (min-width: 750px) {
+@media all and (max-width: 750px) {
 		#header .notice {
-				display: inline-block;
+			display: none;
+		}
+}
+@media all and (max-width: 450px) {
+		#header .nodebot {
+			width: 180px;
+			height: 180px;
+			top: 100px;
+		}
+		#header h1 {
+			font-size: 3em;
+			margin-top: 3em;
 		}
 }
 .notice h1 {
 		font-size: 16px;
 		line-height: 1.2em;
 		text-align: left;
-		width: 150px;
+		text-align: center;
+		width: 130px;
 		margin: 55px 0 10px 35px;
 		line-height: 1.5em;
 		color: #F8E01E;
@@ -66,11 +78,11 @@ a {
 		display: inline-block;
 }
 .badges .github {
-		background: url("/img/badge-github.png") center center no-repeat;
+		background: url("../img/badge-github.png") center center no-repeat;
 		background-size: 80% 80%;
 }
 .badges .twitter {
-		background: url("/img/badge-twitter.png") center center no-repeat;
+		background: url("../img/badge-twitter.png") center center no-repeat;
 		background-size: 80% 80%;
 }
 .leaflet-container .leaflet-popup-content,
@@ -84,7 +96,7 @@ a {
 .content {
 		max-width: 590px;
 		margin: 0 auto;
-		padding: 0 8px;
+		padding: 0 16px;
 }
 #organizers,
 #footer {
@@ -123,6 +135,7 @@ h1 a {
 h2 {
 		font-family: 'Monda', sans-serif;
 		font-size: 2em;
+		line-height: 1.2em;
 		margin: 0.8em 0 0.7em;
 }
 header h2 {
@@ -213,7 +226,7 @@ footer {
 		width: 250px;
 		/* all the nested css is done as percentages of this, so you can scale it to your <3's content */
 		height: 250px;
-		background: #F8E01E url("/img/southerncross.png") center top no-repeat;
+		background: #F8E01E url("../img/southerncross.png") center top no-repeat;
 		/*background-color: #F8E01E;*/
 		position: relative;
 		top: 40px;
@@ -362,6 +375,6 @@ footer {
 /** Melb specific things here **/
 
 #melbourne #header {
-	background: #222 url("/img/melb_head.jpg") center center no-repeat;
+	background: #222 url("../img/melb_head.jpg") center center no-repeat;
     background-size: cover;
 }
