@@ -1,0 +1,162 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
+
+@font-face {
+  font-family: 'League Gothic';
+  src: url('font/league-gothic/league-gothic.eot');
+  src: url('font/league-gothic/league-gothic.eot?#iefix') format('embedded-opentype'), url('font/league-gothic/league-gothic.woff') format('woff'), url('font/league-gothic/league-gothic.ttf') format('truetype'), url('font/league-gothic/league-gothic.svg#LeagueGothicRegular') format('svg');
+  font-weight: normal;
+  font-style: normal; }
+
+html {
+    height: 100%;
+	box-sizing: border-box;
+}
+
+/** fix box model**/
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background: #3f3f3f; /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover, #3f3f3f 0%, #000000 100%); /* FF3.6-15 */
+    background: -webkit-radial-gradient(center, ellipse cover, #3f3f3f 0%,#000000 100%); /* Chrome10-25,Safari5.1-6 */
+    background: radial-gradient(ellipse at center, #3f3f3f 0%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f3f3f', endColorstr='#000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+    color: rgba(255, 255, 255, 0.85);
+    font-family: 'Lato', sans-serif;
+}
+
+/** do reset **/
+html, body, section, div, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    overflow: hidden;
+    height: 100vh;
+}
+
+slide {
+
+    position: absolute;
+    width: 70vw;
+    height: calc(70vw * 3 / 4);
+
+    margin: auto;
+    top: 0; right:0; bottom: 0; left: 0;
+
+    display: inline-block;
+    opacity: 0;
+
+    transition: opacity 1s linear;
+}
+
+slide.current {
+    opacity: 1;
+}
+
+slide > content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+}
+
+slide h2 {
+    margin: 0 0 3vh 0;
+    color: #3f3f3f;
+    background-color: #F8DF1E;
+    font-family: 'League Gothic', Impact, sans-serif;
+    font-size: 8vh;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 0.1vh rgba(0, 0, 0, 0.3);
+    letter-spacing: 0.2vh;
+    padding: 1.3vh;
+    display: inline-block;
+}
+
+slide p, slide ul li {
+    font-size: 8vh;
+    padding: 1.3vh;
+}
+
+slide ul {
+    list-style: none;
+}
+
+slide ul li:before {
+    position: absolute;
+    margin-left: -1em;
+    content: "#";
+    color: #F8DF1E;
+    line-height: inherit;
+}
+
+/** slide specific **/
+
+#resources ul li {
+    font-size: 6vh;
+    padding-left: 0;
+}
+
+table {
+    border-spacing: 0;
+    border-color: transparent;
+    border-collapse: collapse;
+}
+
+table tr {
+    height: 4vh;
+}
+
+table tr td {
+    padding:  0 1vh;
+    width: 19%;
+    text-align: center;
+    border-top: 0.5px solid #3f3f3f;
+    border-bottom: 0.5px solid #3f3f3f;
+    font-size: 2vh;
+}
+
+table tr td.centre {
+}
+
+#schedule table tr:nth-child(1) > td {
+    color: #3f3f3f;
+}
+
+#schedule table td:nth-child(1),
+#schedule table td.col1 {
+    background-color: rgb(248, 223, 30);
+    width: 5%;
+    color: #3f3f3f; /**rgba(255, 255, 255, 0.85);**/
+}
+
+#schedule table td:nth-child(2),
+#schedule table td.col2 {
+    background-color: rgba(248, 223, 30, 0.9);
+}
+#schedule table td:nth-child(3),
+#schedule table td.col3 {
+    background-color: rgba(248, 223, 30, 0.8);
+}
+#schedule table td:nth-child(4),
+#schedule table td.col4 {
+    background-color: rgba(248, 223, 30, 0.7);
+}
+#schedule table td:nth-child(5),
+#schedule table td.col5 {
+    background-color: rgba(248, 223, 30, 0.6);
+}
+#schedule table td:nth-child(6),
+#schedule table td.col6 {
+    background-color: rgba(248, 223, 30, 0.5);
+}
+
+
