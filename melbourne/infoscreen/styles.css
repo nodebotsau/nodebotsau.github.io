@@ -46,7 +46,7 @@ slide {
 
     position: absolute;
     width: 70vw;
-    height: calc(70vw * 3 / 4);
+    height: calc(70vw * 9 / 16);
 
     margin: auto;
     top: 0; right:0; bottom: 0; left: 0;
@@ -101,7 +101,7 @@ slide ul li:before {
 /** slide specific **/
 
 #resources ul li {
-    font-size: 6vh;
+    font-size: 5.5vh;
     padding-left: 0;
 }
 

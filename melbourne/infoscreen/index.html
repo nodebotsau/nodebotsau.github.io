@@ -138,16 +138,16 @@
 
         <script type="text/javascript">
 
-            let intv = window.setInterval(() => {
-                let slides = document.querySelectorAll("slide");
+            var intv = window.setInterval(() => {
+                var slides = document.querySelectorAll("slide");
 
-                let currentSlide = -1;
+                var currentSlide = -1;
 
-                slides.forEach((slide, index) => {
-                    if (slide.classList.contains("current")) {
-                        currentSlide = index;
+                for (var i=0; i< slides.length; i++) {
+                    if (slides[i].classList.contains("current")) {
+                        currentSlide = i;
                     }
-                });
+                };
 
                 slides[currentSlide].classList.remove("current");
                 if (++currentSlide >= slides.length) {
